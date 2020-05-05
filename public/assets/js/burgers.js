@@ -29,14 +29,13 @@ $(function () {
       burger_name: $("#ca").val().trim(),
       devoured: $("[burger_name=devoured]:checked").val().trim()
     };
-    console.log(newBurger);
     // Send the POST request.
     $.ajax("/api/burgers", {
       type: "POST",
       data: newBurger
     }).then(
       function () {
-        console.log("created new burger");
+        console.log("created new burger: " + newBurger.devoured);
         // Reload the page to get the updated list
         location.reload();
       }
