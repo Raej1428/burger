@@ -1,7 +1,6 @@
 {
   "name": "mvc_design",
   "version": "1.0.0",
-  "description": "A delicious Burger menu, where you can see the menu and select menu items and virtually devour them.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,13 +16,6 @@
   "devDependencies": {
     "handlebars-helper-css": "^0.1.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Raej1428/burger.git"
-  },
   "keywords": [],
-  "bugs": {
-    "url": "https://github.com/Raej1428/burger/issues"
-  },
-  "homepage": "https://github.com/Raej1428/burger#readme"
+  "description": ""
 }
