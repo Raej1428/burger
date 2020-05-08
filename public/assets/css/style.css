@@ -24,6 +24,8 @@ li {
     font-family: 'Indie Flower', cursive;
     padding-bottom: 30px;
     background-color: whitesmoke;
+    background-image: url("./vm.png");
+    background-repeat: no-repeat;
 }
 
 button {
