@@ -17,5 +17,13 @@
     "handlebars-helper-css": "^0.1.0"
   },
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raej1428/burger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Raej1428/burger/issues"
+  },
+  "homepage": "https://github.com/Raej1428/burger#readme",
   "description": ""
 }
