@@ -1,8 +1,11 @@
-var express = require("express");
-
-var PORT = process.env.PORT || 8080;
-
+var sslRedirect = require('heroku-ssl-redirect');
+var express = require('express');
 var app = express();
+
+// enable ssl redirect
+app.use(sslRedirect());
+
+var PORT = process.env.PORT || 3000;
 
 // Serve static content for the app from the "public" directory in the appliburgerion directory.
 app.use(express.static("public"));
