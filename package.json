@@ -1,32 +1,32 @@
 {
-  "name": "mvc_design",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "cli": "^1.0.1",
-    "connect-timeout": "^1.9.0",
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "heroku-ssl-redirect": "0.0.4",
-    "mysql": "^2.18.1"
-  },
-  "devDependencies": {
-    "handlebars-helper-css": "^0.1.0"
-  },
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Raej1428/burger.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Raej1428/burger/issues"
-  },
-  "homepage": "https://github.com/Raej1428/burger#readme",
-  "description": ""
+    "name": "mvc_design",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cli": "^1.0.1",
+        "connect-timeout": "^1.9.0",
+        "express": "^4.16.3",
+        "express-handlebars": "^3.0.0",
+        "heroku-ssl-redirect": "0.0.4",
+        "mysql": "^2.18.1"
+    },
+    "devDependencies": {
+        "handlebars-helper-css": "^0.1.0"
+    },
+    "keywords": [],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Raej1428/burger.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Raej1428/burger/issues"
+    },
+    "homepage": "https://github.com/Raej1428/burger#readme",
+    "description": ""
 }

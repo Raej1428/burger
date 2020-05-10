@@ -1,4 +1,5 @@
 var mysql = require("mysql");
+require('dotenv').config();
 // mysql://root:rootroot1313@locahost:3306/burgers_db
 
 // Make connection.
