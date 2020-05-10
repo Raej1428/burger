@@ -1,6 +1,7 @@
 var sslRedirect = require('heroku-ssl-redirect');
 var express = require('express');
 var app = express();
+var timeout = require('connect-timeout');
 
 // enable ssl redirect
 app.use(sslRedirect());
@@ -31,11 +32,9 @@ app.listen(PORT, function() {
     console.log("Server listening on: http://localhost:" + PORT);
 });
 
-app.use(function(req, res, next) {
-    res.setTimeout(150000, function() {
-        console.log('Request has timed out.');
-        res.send(408);
-    });
+app.use(timeout(150000));
+app.use(haltOnTimedout);
 
-    next();
-});
+function haltOnTimedout(req, res, next) {
+    if (!req.timedout) next();
+}
