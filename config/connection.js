@@ -27,5 +27,19 @@ connection.connect(function(err) {
     console.log("connected as id " + connection.threadId);
 });
 
+connection.query('USE bu09izwutcdhkvpy', function(err) {
+    if (err) throw err;
+    con.query('CREATE TABLE IF NOT EXISTS burgers(' +
+        'id INT NOT NULL AUTO_INCREMENT,' +
+        'PRIMARY KEY(id),' +
+        'link VARCHAR(255),' +
+        'item VARCHAR(255),' +
+        'stock VARCHAR(255)' +
+        ')',
+        function(err) {
+            if (err) throw err;
+        });
+});
+
 // Export connection for our ORM to use.
 module.exports = connection;
