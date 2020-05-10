@@ -37,20 +37,26 @@ button {
 }
 
 #main {
-    border: thick, solid, black;
+    border-color: black;
+    border-width: 10px;
     background-color: whitesmoke;
 }
 
 form {
-    border: thick, solid, black;
+    border-color: black;
+    border-width: 10px;
 }
 
 #eaten {
     display: flex;
     flex-direction: row;
+    border-color: black;
+    border-width: 10px;
 }
 
 #uneaten {
     display: flex;
     flex-direction: row;
+    border-color: black;
+    border-width: 10px;
 }
