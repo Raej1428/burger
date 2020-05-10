@@ -1,37 +1,56 @@
-    li {
-        font-family: 'Balsamiq Sans', cursive;
-        padding: 5px;
-        margin: 5px;
-    }
-    
-    .label {
-        font-family: 'Balsamiq Sans', cursive;
-        font-weight: bold;
-    }
-    
-    .create-update-form {
-        font-family: 'Balsamiq Sans', cursive;
-        padding: 5px;
-        margin: 5px;
-    }
-    
-    .form-group {
-        font-family: 'Balsamiq Sans', cursive;
-        margin-bottom: 5px;
-    }
-    
-    .container {
-        font-family: 'Indie Flower', cursive;
-        padding-bottom: 30px;
-        background-color: whitesmoke;
-    }
-    
-    button {
-        font-family: 'Indie Flower', cursive;
-        color: tomato;
-        font-size: large;
-    }
-    
-    .jumbotron {
-        text-align: center;
-    }
+li {
+    font-family: 'Balsamiq Sans', cursive;
+    padding: 5px;
+    margin: 5px;
+}
+
+.label {
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+}
+
+.create-update-form {
+    font-family: 'Balsamiq Sans', cursive;
+    padding: 5px;
+    margin: 5px;
+}
+
+.form-group {
+    font-family: 'Balsamiq Sans', cursive;
+    margin-bottom: 5px;
+}
+
+.container {
+    font-family: 'Indie Flower', cursive;
+    padding-bottom: 30px;
+}
+
+button {
+    font-family: 'Indie Flower', cursive;
+    color: tomato;
+    font-size: large;
+}
+
+.jumbotron {
+    text-align: center;
+    border: thick, solid, black;
+}
+
+#main {
+    border: thick, solid, black;
+    background-color: whitesmoke;
+}
+
+form {
+    border: thick, solid, black;
+}
+
+#eaten {
+    display: flex;
+    flex-direction: row;
+}
+
+#uneaten {
+    display: flex;
+    flex-direction: row;
+}
