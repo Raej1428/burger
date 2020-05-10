@@ -31,10 +31,11 @@ app.listen(PORT, function() {
     console.log("Server listening on: http://localhost:" + PORT);
 });
 
-// Timeout
-app.use(timeout(15000));
-app.use(haltOnTimedout);
+app.use(function(req, res, next) {
+    res.setTimeout(150000, function() {
+        console.log('Request has timed out.');
+        res.send(408);
+    });
 
-function haltOnTimedout(req, res, next) {
-    if (!req.timedout) next();
-}
+    next();
+});
