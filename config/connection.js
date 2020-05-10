@@ -1,6 +1,7 @@
 var mysql = require("mysql");
 // mysql://root:rootroot1313@locahost:3306/burgers_db
 
+
 // Make connection.
 var connection;
 
