@@ -2,6 +2,7 @@
 
 CREATE DATABASE burger_db;
 USE burger_db;
+USE jawsdb_gray;
 
 CREATE TABLE burgers
 (
