@@ -1,8 +1,7 @@
 var sslRedirect = require('heroku-ssl-redirect');
 var express = require('express');
 var app = express();
-// var timeout = require('connect-timeout');
-var timeout = express.timeout // express v3 and below
+var timeout = require('connect-timeout');
 
 // enable ssl redirect
 app.use(sslRedirect());
